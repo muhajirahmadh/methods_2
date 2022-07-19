@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(230, 245, 251);
+}
+.border{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 200px;
+    background-color: rgb(246, 252, 252);
+    box-shadow: 5px 10px  #888888;
+    margin: auto;
+    width: 500px;
+    border-radius: 30px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(87, 84, 84);
+}
+h4{
+    color: cornflowerblue;
+}
+button{
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+button:hover{
+    color: rgb(88, 70, 243);
+}
