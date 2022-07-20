@@ -28,3 +28,18 @@ button{
 button:hover{
     color: rgb(88, 70, 243);
 }
+
+#total-count{
+    font-weight: 900;
+    font-size: 70px;
+    color: white;
+  }
+.con{
+    background-color: rgb(63, 105, 105) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:70%;
+    border-radius: 10px;
+}

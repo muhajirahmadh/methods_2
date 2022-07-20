@@ -6,7 +6,7 @@ document.getElementById("para2").innerHTML = str[1];
 
 // TRIM
 
-let text1 = "  Hey dude!     ";
+let text1 = "Hey dude!";
 let text2 = text1.trim();
 
 document.getElementById("para3").innerHTML =
@@ -105,4 +105,46 @@ var person = {
   let fullName = per.fullName.bind(member);
   
   document.getElementById("para13").innerHTML = fullName();
-  
+  //
+
+var letters = "my name is muhajir";
+document.getElementById("par").addEventListener("click",my);
+
+function my(){
+    document.getElementById("par").innerHTML = letters;
+}
+
+
+
+
+// Select increment and decrement buttons
+const incrementCount = document.getElementById("increment-count");
+const decrementCount = document.getElementById("decrement-count");
+
+// Select total count
+const totalCount = document.getElementById("total-count");
+
+// Variable to  count
+var count = 0;
+
+// Display initial count value
+totalCount.innerHTML = count;
+
+// Function to increment count
+const handleIncrement = () => {
+  count++;
+  totalCount.innerHTML = count;
+};
+
+// Function to decrement count
+const handleDecrement = () => {
+  count--;
+  totalCount.innerHTML = count;
+};
+
+// Add click event to buttons
+incrementCount.addEventListener("click", handleIncrement);
+decrementCount.addEventListener("click", handleDecrement);
+    
+
+
